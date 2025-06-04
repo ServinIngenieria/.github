@@ -16,7 +16,8 @@
 
 #### 🎨 Frontend (Angular)
 1. Compilar para producción: `ng build --configuration production`
-2. Subir los archivos al servidor: `scp -i C:\Users\INSPECCIONES\.ssh\MiClave -r dist\* root@172.233.215.190:/var/www/html/`
+2. Subir los archivos al servidor: `scp -i tu-ruta-a-clave-ssh -r dist\* tu-usuario@tu-ip:/var/www/html/`
+> Reemplazar por la ruta a tu clave, usuario e IP de la consola Linode
 
 
 ## 🖥️ Acceso al Servidor (Linode)
