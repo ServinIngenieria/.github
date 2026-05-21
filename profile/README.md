@@ -21,7 +21,7 @@
 
 ## 🖥️ Acceso al Servidor (Linode)
 
-#### Opción 3: CMD/ terminal (SSH)
+#### Opción 1: CMD/ terminal (SSH)
 1. Abrir CMD o una terminal.
 2. Conectarse `ssh -i /ruta/a/tu-clave-privada.pem tu-usuario@tu-ip`
 
@@ -73,6 +73,6 @@ GITHUB ACCESS TOKEN LINODE BACKEND
 RUTA CLAVE SSH LOCAL
 SSH_KEY_PATH=C:\\Users\\INSPECCIONES\\.ssh\\clave-openssh.pem
 
-### BASE DE DATOS DOCKER (LINODE)
+BASE DE DATOS DOCKER (LINODE)
 - Usuario: `ENV(MYSQL_ROOT_USER)`
 - Contraseña: `ENV(MYSQL_ROOT_PASSWORD)`
