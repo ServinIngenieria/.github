@@ -1,78 +1,39 @@
-# Información General del Portal
+# Ecosistema de Sistemas - Servin Ingeniería
 
-## Tecnologías Utilizadas
-- **Frontend:** Angular
-- **Backend:** Laravel
-- **Base de Datos:** MySQL (Dockerizado)
-- **Infraestructura:** Linode VPS
+## Introducción
+Este repositorio centraliza la documentación técnica, accesos, despliegues e infraestructura de los sistemas internos de Servin Ingeniería.
 
-## Pasos para subir cambios a producción
-#### 🔧 Backend (Laravel)
+---
 
-1. Subir los cambios al repositorio `app_laravel` en GitHub.
-2. Acceder al servidor Linode vía consola.
-3. Ir a la carpeta del proyecto: `/var/www/backend_backoffice_repo/app_laravel/`
-4. Traer los cambios remotos: `git pull origin main`
+# Sistemas principales
 
-#### 🎨 Frontend (Angular)
-1. Compilar para producción: `ng build --configuration production`
-2. Subir los archivos al servidor: `scp -i tu-ruta-a-clave-ssh -r dist\* tu-usuario@tu-ip:/var/www/html/`
-> Reemplazar por la ruta a tu clave, usuario e IP de la consola Linode.
+| Proyecto | Descripción | Tecnologías |
+|---|---|---|
+| app_laravel | Backend principal del portal | Laravel + MySQL |
+| angular_app | Frontend principal del portal | Angular |
+| seguimiento_gastos | Sistema interno de gastos | Laravel |
+| cursos_servin | Plataforma de cursos | Laravel |
+| seguimientos_ventas | Seguimiento comercial | Laravel |
 
-## 🖥️ Acceso al Servidor (Linode)
+---
 
-#### Opción 1: CMD/ terminal (SSH)
-1. Abrir CMD o una terminal.
-2. Conectarse `ssh -i /ruta/a/tu-clave-privada.pem tu-usuario@tu-ip`
+# Documentación
 
-#### Opción 2: LISH Console (Web)
-1. Ir a `cloud.linode.com`
-2. Seleccionar el servidor debian-us-ord-backoffice
-3. Hacer clic en Launch LISH Console
+## Proyectos
+- [Portal principal](./proyectos/portal-principal.md)
+- [Seguimiento de gastos](./proyectos/seguimiento-gastos.md)
+- [Cursos Servin](./proyectos/cursos-servin.md)
+- [Seguimiento de ventas](./proyectos/seguimiento-ventas.md)
 
-#### Opción 3: Putty (SSH)
-1. Abrir Putty
-2. En `Session → Host Name`, ingresar la IP pública
-3. En `Connection → SSH → Auth`, cargar la clave .ppk desde: `C:\Users\INSPECCIONES\.ssh\`
-4. Ingresar como usuario `root`
+## Infraestructura
+- [Linode VPS](./infraestructura/linode.md)
+- [Docker](./infraestructura/docker.md)
 
-## 🐋 Docker: Comandos útiles
-Ruta del proyecto: `/var/www/backend_backoffice_repo/app_laravel/`
+## Deploys
+- [Deploy Backend y Frontend](./despliegues/portal-backoffice.md)
 
-#### Reiniciar los contenedores
-   - `docker compose down`
-   - `docker compose up -d`
-#### Acceder al contenedor de base de datos
-   - `docker exec -it servin_db bash`
-   - `mysql -u root p`
-#### Acceder al contenedor del backend Laravel
-   - `docker compose exec servin_backend bash`
-   
-## 🔐 Accesos y Credenciales
-⚠️ Las credenciales están almacenadas de forma segura en el archivo `.env` del proyecto Laravel
+## Recursos
+- [Google Drive](./recursos/drive.md)
 
-CLOUD LINODE
-- Usuario: `ENV(LINODE_USER)`
-- Contraseña: `ENV(LINODE_PASSWORD)`
-
-CONSOLE LINODE
-- Usuario: `ENV(LINODE_ROOT_USER)`
-- Contraseña: `ENV(LINODE_ROOT_PASSWORD)`
-
-INNOVACION TECNOLÓGICA CORREO
-- Usuario: `ENV(MAIL_USER)`
-- Contraseña: `ENV(MAIL_PASSWORD)`
-
-GITHUB
-- Usuario: `ENV(GITHUB_USER)`
-- Contraseña: `ENV(GITHUB_PASSWORD)`
-
-GITHUB ACCESS TOKEN LINODE BACKEND
-- Token: `ENV(GITHUB_TOKEN)`
-
-RUTA CLAVE SSH LOCAL
-SSH_KEY_PATH=C:\\Users\\INSPECCIONES\\.ssh\\clave-openssh.pem
-
-BASE DE DATOS DOCKER (LINODE)
-- Usuario: `ENV(MYSQL_ROOT_USER)`
-- Contraseña: `ENV(MYSQL_ROOT_PASSWORD)`
+## Troubleshooting
+- [Problemas comunes](./troubleshooting/problemas-comunes.md)
