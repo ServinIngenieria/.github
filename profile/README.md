@@ -30,10 +30,10 @@ Este repositorio centraliza la documentación técnica, accesos, despliegues e i
 - [Docker](./infraestructura/docker.md)
 
 ## Deploys
-- [Deploy Backend y Frontend](./despliegues/portal-backoffice.md)
+- [Deploy Backend y Frontend](https://github.com/ServinIngenieria/servin-docs/tree/main/despliegues/portal-backoffice.md)
 
 ## Recursos
-- [Google Drive](./recursos/drive.md)
+- [Google Drive](https://github.com/ServinIngenieria/servin-docs/tree/main/recursos/drive.md)
 
 ## Troubleshooting
 - [Problemas comunes](./troubleshooting/problemas-comunes.md)
