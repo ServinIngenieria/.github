@@ -20,7 +20,7 @@ Este repositorio centraliza la documentación técnica, accesos, despliegues e i
 # Documentación
 
 ## Proyectos
-- [Portal principal](./proyectos/portal-principal.md)
+- [Portal principal](https://github.com/ServinIngenieria/servin-docs/tree/main/proyectos)
 - [Seguimiento de gastos](./proyectos/seguimiento-gastos.md)
 - [Cursos Servin](./proyectos/cursos-servin.md)
 - [Seguimiento de ventas](./proyectos/seguimiento-ventas.md)
