@@ -20,10 +20,10 @@ Este repositorio centraliza la documentación técnica, accesos, despliegues e i
 # Documentación
 
 ## Proyectos
-- [Portal principal](https://github.com/ServinIngenieria/servin-docs/tree/main/proyectos)
-- [Seguimiento de gastos](./proyectos/seguimiento-gastos.md)
-- [Cursos Servin](./proyectos/cursos-servin.md)
-- [Seguimiento de ventas](./proyectos/seguimiento-ventas.md)
+- [Portal principal](https://github.com/ServinIngenieria/servin-docs/tree/main/proyectos/portal-principal.md)
+- [Seguimiento de gastos](https://github.com/ServinIngenieria/servin-docs/tree/main/proyectos/seguimiento-gastos.md)
+- [Cursos Servin](https://github.com/ServinIngenieria/servin-docs/tree/main/proyectos/cursos-servin.md)
+- [Seguimiento de ventas](https://github.com/ServinIngenieria/servin-docs/tree/main/proyectos/seguimiento-ventas.md)
 
 ## Infraestructura
 - [Linode VPS](./infraestructura/linode.md)
