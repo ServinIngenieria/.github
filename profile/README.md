@@ -11,9 +11,9 @@ Este repositorio centraliza la documentación técnica, accesos, despliegues e i
 |---|---|---|
 | app_laravel | Backend principal del portal | Laravel + MySQL |
 | angular_app | Frontend principal del portal | Angular |
-| seguimiento_gastos | Sistema interno de gastos | Laravel |
-| cursos_servin | Plataforma de cursos | Laravel |
-| seguimientos_ventas | Seguimiento comercial | Laravel |
+| seguimiento_gastos | Sistema interno de gastos | Laravel + MySQL|
+| cursos_servin | Plataforma de cursos | Laravel + MySQL|
+| seguimientos_ventas | Seguimiento comercial | Laravel + MySQL|
 
 ---
 
