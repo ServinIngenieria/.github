@@ -27,7 +27,7 @@ Este repositorio centraliza la documentación técnica, accesos, despliegues e i
 
 ## Infraestructura
 - [Linode VPS](./infraestructura/linode.md)
-- [Docker](./infraestructura/docker.md)
+- [Docker](https://github.com/ServinIngenieria/servin-docs/blob/main/infraestructura/docker.md)
 
 ## Deploys
 - [Deploy Backend y Frontend](https://github.com/ServinIngenieria/servin-docs/tree/main/despliegues/portal-backoffice.md)
